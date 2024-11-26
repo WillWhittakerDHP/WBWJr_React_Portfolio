@@ -1,0 +1,8 @@
+import ContactForm from './ContactForm';
+import './contact.css';
+
+export default function ContactContent() {
+  return (
+    ContactForm()
+  );
+}
