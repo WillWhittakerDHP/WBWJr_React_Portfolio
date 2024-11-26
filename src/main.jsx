@@ -8,7 +8,7 @@ import './index.css';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import AboutPage from './pages/AboutPage';
-// import PortfolioPage from './pages/PortfolioPage';
+import PortfolioPage from './pages/PortfolioPage';
 // import ResumePage from './pages/ResumePage';
 import ContactPage from './pages/ContactPage';
 

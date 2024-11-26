@@ -26,7 +26,7 @@ class Project {
 }
 
 
-export default class Projects {
+class Projects {
   projects: Project[];
   constructor(
     projects: Project[]
@@ -35,3 +35,4 @@ export default class Projects {
   }
   
 }
+export default Projects;

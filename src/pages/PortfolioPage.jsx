@@ -1,5 +1,5 @@
 import ProjectItems from '../components/Portfolio/ProjectLinks';
-import './portfolio.css';
+import '../components/Portfolio/portfolio.css';
 
 export default function PortfolioPage() {
   
