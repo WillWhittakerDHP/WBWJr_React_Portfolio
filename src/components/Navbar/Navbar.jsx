@@ -1,14 +1,36 @@
-export default function Nav({ links }) {
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+// import Card from 'react-bootstrap/Card';
+
+export default function  Navlinks({ links }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-secondary">
-      <div className="container-fluid">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <h1>Will Whittaker</h1>
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            {links.map((link) => link)}
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+        <Container>
+          {/* <Card>
+            <Card.Header> */}
+              <Navbar.Brand href="#home">Will Whittaker</Navbar.Brand>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                  {/* <Nav className="me-auto">
+                  {links.map((link) => link)}
+                  </Nav> */}
+                <Nav variant="tabs" defaultActiveKey="#first">
+                  <Nav.Item>
+                  {links.map((link) => link)}
+                  </Nav.Item>
+                </Nav>
+              </Navbar.Collapse>
+            {/* </Card.Header> */}
+            {/* <Card.Body>
+              <Card.Title>Special title treatment</Card.Title>
+              <Card.Text>
+                With supporting text below as a natural lead-in to additional content.
+              </Card.Text>
+            </Card.Body> */}
+          {/* </Card> */}
+        </Container>
+      </Navbar>
   );
 }
+//

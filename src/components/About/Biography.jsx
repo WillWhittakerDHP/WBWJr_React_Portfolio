@@ -1,16 +1,15 @@
 export default function Biography() {
 
-  // Iterate over each mock user to display their abridged portfolio data and a link to their page
   return (
     <div>
       <section className="features-icons bg-light text-center m-4">
-        {/* <div className="container">
-          <div className="row p-2"> */}
-            {/* <div className="col-lg-4"> */}
+        <div className="container">
+          <div className="row p-2">
+            <div className="col-lg-4">
               <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                {/* <div className="features-icons-icon d-flex"> */}
-                  {/* <i className="bi-terminal m-auto text-primary" /> */}
-                {/* </div> */}
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-terminal m-auto text-primary" />
+                </div>
                 <h3>Will's Bio</h3>
                 <p className="lead mb-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
@@ -22,9 +21,9 @@ export default function Biography() {
         nostrum temporibus ad omnis nam rerum eligendi.
                 </p>
               </div>
-            {/* </div> */}
-          {/* </div> */}
-        {/* </div> */}
+            </div> 
+          </div>
+        </div>
       </section>
     </div>
 

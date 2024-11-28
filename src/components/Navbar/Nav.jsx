@@ -1,24 +1,24 @@
 import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 
-export default function Nav() {
+export default function NavbarContent() {
   return (
     <Navbar
       links={[
         <NavLink key={1} className={({ isActive }) =>
-    isActive ? 'bg-green-500 font-bold' : 'bg-red-500 font-thin'} to="/" >  
+    isActive ? 'nav-link active' : 'nav-link'} to="/" >  
         About Me
         </NavLink>,
         <NavLink key={2} className={({ isActive }) =>
-    isActive ? 'bg-green-500 font-bold' : 'bg-red-500 font-thin'} to="/portfolio" >
+    isActive ? 'nav-link active' : 'nav-link'} to="/portfolio" >
         Portfolio
         </NavLink>,  
         <NavLink key={3} className={({ isActive }) =>
-    isActive ? 'bg-green-500 font-bold' : 'bg-red-500 font-thin'} to="/resume" >
+    isActive ? 'nav-link active' : 'nav-link'} to="/resume" >
         Resume
         </NavLink>,
         <NavLink key={4} className={({ isActive }) =>
-    isActive ? 'bg-green-500 font-bold' : 'bg-red-500 font-thin'} to="/contact" >
+    isActive ? 'nav-link active' : 'nav-link'} to="/contact" >
         Contact
         </NavLink>,
       ]}

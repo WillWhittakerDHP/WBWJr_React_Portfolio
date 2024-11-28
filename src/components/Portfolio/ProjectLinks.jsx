@@ -12,7 +12,7 @@ export default function ProjectItems() {
           <ListItem key={project.id}>
             {/* <Projects project={project} /> */}
             <h2 className="fw-bold mb-1">{project.title}</h2>
-            <img className="fw-bold mb-1" alt={project.alt} src={project.image} />
+            <img className="fw-bold mb-1" src={project.image} alt={project.alt} />
             <Link to={`${project.deployedApp}`} className="badge bg-primary rounded-pill">Deployed App</Link>
             <Link to={`${project.gitRepo}`} className="badge bg-primary rounded-pill">Github Repository</Link>      
           </ListItem>
