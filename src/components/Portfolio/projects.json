@@ -2,7 +2,7 @@
   {
   "id": 1, 
   "title":   "Take a Vehicle Make a Vehicle",
-  "image": "../../../assets/ToxicAmericanisms.jpg", 
+  "image": "../../assets/ToxicAmericanisms.jpg", 
   "alt": "cars and trucks and bikes",
   "deployedApp": "https://github.com/WillWhittakerDHP/Take-a-Vehicle-Make-a-Vehicle.git", 
   "gitRepo":"https://github.com/WillWhittakerDHP/Take-a-Vehicle-Make-a-Vehicle.git" 
@@ -10,7 +10,7 @@
 {
 "id":   2,
 "title":   "They All Suck Eventually",
-"image":   "../../../assets/OpenWeatherAPI.png",
+"image":   "../../assets/OpenWeatherAPI.png",
 "alt": "Screencap from OpenWeathermap API",
 "deployedApp":   "https://github.com/WillWhittakerDHP/They-All-Suck-Eventually.git",
 "gitRepo":  "https://github.com/WillWhittakerDHP/They-All-Suck-Eventually.git"
@@ -18,7 +18,7 @@
 {
 "id":   3,
 "title":   "Battlestar Galactica Database",
-"image":   "../../../assets/BSGSeason4Banner.jpg",
+"image":   "../../assets/BSGSeason4Banner.jpg",
 "alt": "season banner for BSG",
 "deployedApp":   "https://github.com/WillWhittakerDHP/Keepin_Em_Straight.git",
 "gitRepo":  "https://github.com/WillWhittakerDHP/Keepin_Em_Straight.git"
@@ -26,7 +26,7 @@
 {
 "id":   4,
 "title":   "React Portfolio",
-"image":   "../../../assets/redheadshot.jpeg",
+"image":   "../../assets/redheadshot.jpeg",
 "alt": "my headshot",
 "deployedApp":   "https://github.com/WillWhittakerDHP/WBWJr_React_Portfolio.git",
 "gitRepo":  "https://github.com/WillWhittakerDHP/WBWJr_React_Portfolio.git"
@@ -34,7 +34,7 @@
 {
 "id":   5,
 "title":   "Full Stack Homework",
-"image":   "../../../assets/FullStackImage.png",
+"image":   "../../assets/FullStackImage.png",
 "alt": "image representing the parts of a full stack app",
 "deployedApp":   "Julianne.OConner@kory.org",
 "gitRepo":  "transition cutting-edge web services"
@@ -42,7 +42,7 @@
 {
 "id":   6,
 "title":   "DHP Differential Scheduler",
-"image": "../../../assets/ServiceSelectionTop.png", 
+"image": "../../assets/ServiceSelectionTop.png", 
 "alt": "landing page for the service selection page",
 "deployedApp":   "https://github.com/WillWhittakerDHP/DHP_Differential_Scheduler.git",
 "gitRepo":  "https://github.com/WillWhittakerDHP/DHP_Differential_Scheduler.git"

@@ -1,7 +1,17 @@
-
 .profile-footer {
-  text-align: center;
-  /* position: fixed; */
-  inset: auto 0 0 0;
+  /* text-align: center;
+  position: fixed;
+  inset: auto 0 0 0; */
   padding: 1em;
+  background-color: rgb(249, 249, 249);
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon{
+  height: 24px;
+  width: 24px;
 }

@@ -1,6 +1,6 @@
 
 .headshot {
-  max-width: 50%; 
-  height: auto;
+  width: auto; 
+  max-height: 500px;
   margin: 5px;
 }
